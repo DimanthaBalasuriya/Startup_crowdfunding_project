@@ -1,0 +1,141 @@
+:root {
+    /* Colors */
+    --color-errie-black: #272727;
+    --color-shappier: #2B50AA;
+    --color-beige: #EFF8E2;
+    --color-carolina-blue: #5FA8D3;
+    --color-pumpkin: #FC7A1E;
+    /* Fonts */
+    --font-shippori: 'Shippori Mincho', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-shippori);
+}
+
+.msg_area {
+    background-color: var(--color-errie-black);
+    color: var(--color-beige);
+    font-family: var(--font-shippori);
+    letter-spacing: 1px;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+}
+
+.nav-wrapper {
+    background: #0052D4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: var(--color-beige);
+    font-family: var(--font-shippori);
+}
+
+.brand-logo {
+    text-transform: uppercase;
+}
+
+.right {
+    margin-right: 10px;
+}
+
+.slider .indicators .indicator-item {
+    border: 1px solid var(--color-pumpkin);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #ffffff;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+    color: var(--color-pumpkin);
+}
+
+.slider .indicators {
+    bottom: 60px;
+    z-index: 100;
+    /* text-align: left; */
+}
+
+.section_one {
+    margin: 20px;
+}
+
+.section_about {
+    margin: 20px;
+}
+
+.materialboxed {
+    width: 100%;
+}
+
+.about {
+    margin: auto;
+}
+
+.section_creative_team {
+    margin: 20px;
+    padding: 10px;
+}
+
+.para {
+    margin-top: 20px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.content_margin{
+    margin-top: 20px;
+}
+
+.page-footer {
+    background-color: var(--color-errie-black);
+}
+
+.start_project_section{
+    margin: 20px;
+}
+
+.collapsible_section{
+    margin: 20px;
+}
+
+.auth_body{
+    background: #0052D4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+.login_section{
+    background-color: var(--color-beige);
+}
+
+.account_section{
+    margin: 20px;
+}
+
+.section_header{
+    display: flex;
+}
+
+.project_view_section{
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    div.msg_area {
+        font-size: 10px;
+        letter-spacing: 0px;
+        height: 3vh;
+    }
+}

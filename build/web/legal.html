@@ -1,0 +1,100 @@
+
+<div class="navbar-fixed ">
+    <nav>
+        <div class="nav-wrapper blue ">
+
+            <div class="row mb-0">
+                <div class="col s12 m8 offset-m2">
+                    <h3>Title</h3>
+                </div>  
+            </div>
+            <div class="row mb-0">
+                <div class='col s12 m6   l4 offset-l2'>
+
+
+                    <ul class="tabs blue">
+                        <li class="tab col s1 "><a href="#test1" class='active white-text'>Settings</a></li>
+                        <li class="tab col s1"><a class=" white-text" href="#test2">Questions</a></li>
+                        <li class="tab col s1"><a href="#test3" class='white-text'>Results</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</div>
+
+
+<div class="container pt-10">
+    <div class="row card">
+        <div id="test1" class="col s12">
+            <h3 class='header'>Settings</h3>
+
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                            <label for="disabled">Disabled</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            This is an inline input field:
+                            <div class="input-field inline">
+                                <input id="email_inline" type="email" class="validate">
+                                <label for="email_inline">Email</label>
+                                <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        <div id="test2" class="col s12">
+            <h3 class='header'>Questions</h3>
+
+            <ul class="collection">
+                <li class="collection-item">1</li>
+                <li class="collection-item">2</li>
+                <li class="collection-item">3</li>
+                <li class="collection-item">4</li>
+            </ul>
+
+        </div>
+        <div id="test3" class="col s12">
+            <h3 class='header'>Results</h3>
+
+            <div class="progress">
+                <div class="indeterminate"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
